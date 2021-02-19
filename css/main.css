@@ -1,0 +1,26 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+/*UTILITY*/
+
+/*LAYOUT*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
