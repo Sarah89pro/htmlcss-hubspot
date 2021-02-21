@@ -8,7 +8,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    
+    background-color: #F5F8FA;
+    color: #33475B;
+
 }
 
 h1,
@@ -20,7 +22,144 @@ h4 {
 
 /*UTILITY*/
 
-/*LAYOUT*/
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    text-align: right;
+}
+
+.w-50 {
+width: 50%; /*per dividere il contenitore in 50 e 50*/
+}
+
+/*HEADER*/
+.header-top {
+    /*background-color:#F5F8FA;*/
+    line-height: 80px;
+    border-bottom: 2px solid rgb(88, 88, 88);
+}
+
+.header-bottom {
+    background-color: white;
+    line-height: 80px;
+}
+    
+/*menu*/
+.menu-inline li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    line-height: 0.5;
+    padding-left: 5px;
+}
+
+.menu-inline a {
+    text-decoration: none;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+/*BUTTONS*/
+.btn {
+    display: inline-block;
+    min-width: 50px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #FF7A59;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+}
+
+.btn-orange {
+background-color: #FF7A59;
+color: white;
+font-size: bold;
+}
+
+.btn-orange .btn-big {
+    padding: 20px;
+}
+
+.fas.fa-search.search {
+    color: #01A4BD;
+}
+
+
+/*MAIN*/
+
+/*jumbotron*/
+.jumbotron-img {
+    height: 600px;
+    background-color:#FFF3EE;
+    background-image: url("../img/jumbotron.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 100%/*right bottom*/;
+}
+
+.jumbotron-img .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotron-img .jumbotron-text {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    transform: translate(0, 10%);
+}
+
+.jumbotron-img .jumbotron-text h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.jumbotron-img .jumbotron-text a {
+    margin: 20px auto;
+}
+
+.jumbotron-img .divider {
+    height: 60px;
+    background-color: #A9E9E2;
+    border-top: 2px solid #33475C;
+    border-bottom: 2px solid #33475C;
+    transform: translate(0, -100%);
+}
+
+/*claim*/
+.claim {
+    height: 400px;
+    width: 800px;
+    text-align: center;
+}
+
+.claim img {
+    margin-top: 30px;
+    width: 250px;
+    height: 200px;
+}
+
+.claim h2 {
+    font-size: 30px;
+}
+
+.claim p {
+    margin-top: 20px;
+}
