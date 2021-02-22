@@ -23,6 +23,10 @@ h6 {
     
 }
 
+p {
+    line-height: 26px;
+}
+
 /*UTILITY*/
 
 .container {
@@ -91,7 +95,7 @@ h6 {
     vertical-align: middle;
 }
 
-/*BUTTONS*/
+/*BUTTONS and Icons*/
 .btn {
     display: inline-block;
     min-width: 50px;
@@ -117,6 +121,9 @@ font-size: bold;
     color: #01A4BD;
 }
 
+.fas.fa-check-circle {
+    color: #FF7A59;
+}
 
 /*MAIN*/
 
@@ -176,10 +183,25 @@ font-size: bold;
     font-size: 30px;
 }
 
-.claim p {
-    margin-top: 20px;
+h4 {
+    margin-top: 30px;
+    text-transform: uppercase;
 }
 
+hr {
+   position: relative;
+    bottom: 8px;
+    left: 230px;
+    width: 60%;
+    height: 2px;
+    background-color: black; 
+}
+
+.float-left .menu-inline {
+    margin-top: 30px;
+}
+
+    
 /*free hubspot crm*/
 .hubspot-crm {
     height: 330px;
@@ -202,6 +224,10 @@ font-size: bold;
     font-size: 25px;
 }
 
+.float-left p {
+    line-height: 26px;
+}
+
 /*columns marketing*/
 .marketing {
     height: 600px;
@@ -216,8 +242,6 @@ font-size: bold;
 .mrkt-columns {
     height: 600px;
     background-color: white;
-    /*padding: 20px 20px;*/
-
 }
 
 .col-two {
@@ -235,6 +259,15 @@ font-size: bold;
     width: 100px;
 }
 
-ul li {
+.column-menu li {
     list-style: none;
+    text-align: left;
+    margin-left: ;
+}
+
+.mrkt-text {
+    width: 80%;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
 }
