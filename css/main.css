@@ -57,6 +57,11 @@ h6 {
     width: 70%;
 }
 
+.w-25 {
+    width: 25%;
+}
+
+
 /*HEADER*/
 .header-top {
     /*background-color:#F5F8FA;*/
@@ -157,7 +162,7 @@ font-size: bold;
 /*claim*/
 .claim {
     height: 400px;
-    width: 800px;
+    width: 900px;
     text-align: center;
 }
 
@@ -178,7 +183,6 @@ font-size: bold;
 /*free hubspot crm*/
 .hubspot-crm {
     height: 330px;
-    width: 800px;
     background-color: white;
     text-align: left;
 }
@@ -196,4 +200,41 @@ font-size: bold;
     padding-top: 50px;
     padding-bottom: 20px;
     font-size: 25px;
+}
+
+/*columns marketing*/
+.marketing {
+    height: 600px;
+    margin-top: 50px;
+    /*background-color: #ffffff;*/
+    text-align: center;
+    padding-top: 20px 30px;
+    /*padding: 20px 30px;
+    text-align: center;*/
+}    
+
+.mrkt-columns {
+    height: 600px;
+    background-color: white;
+    /*padding: 20px 20px;*/
+
+}
+
+.col-two {
+    margin: 0 40px;
+    height: 600px;
+    background-color: white;
+}
+
+.col-two ul li {
+    list-style: none;
+}
+
+.mrkt-img {
+    height: 100px;
+    width: 100px;
+}
+
+ul li {
+    list-style: none;
 }
