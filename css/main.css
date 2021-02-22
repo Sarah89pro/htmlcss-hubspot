@@ -16,8 +16,11 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-weight: 700;
+    
 }
 
 /*UTILITY*/
@@ -43,7 +46,15 @@ h4 {
 }
 
 .w-50 {
-width: 50%; /*per dividere il contenitore in 50 e 50*/
+    width: 50%; /*per dividere il contenitore in 50 e 50*/
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
 }
 
 /*HEADER*/
@@ -94,7 +105,7 @@ font-size: bold;
 }
 
 .btn-orange .btn-big {
-    padding: 20px;
+    padding: 40px;
 }
 
 .fas.fa-search.search {
@@ -162,4 +173,27 @@ font-size: bold;
 
 .claim p {
     margin-top: 20px;
+}
+
+/*free hubspot crm*/
+.hubspot-crm {
+    height: 330px;
+    width: 800px;
+    background-color: white;
+    text-align: left;
+}
+
+.float-left .crm {
+    height: 100px;
+    margin: 50px;
+}
+
+.float-left a {
+    margin-left: 50px;
+}
+
+.float-left h3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
 }
