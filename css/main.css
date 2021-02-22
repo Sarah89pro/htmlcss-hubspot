@@ -84,7 +84,7 @@ p {
     list-style: none;
     text-decoration: none;
     line-height: 0.5;
-    padding-left: 5px;
+    /*padding-left: 5px;*/
 }
 
 .menu-inline a {
@@ -245,7 +245,7 @@ hr {
 }
 
 .col-two {
-    margin: 0 40px;
+    margin: 0 5%;
     height: 600px;
     background-color: white;
 }
@@ -262,7 +262,7 @@ hr {
 .column-menu li {
     list-style: none;
     text-align: left;
-    margin-left: ;
+    margin-left: 10%;
 }
 
 .mrkt-text {
@@ -271,3 +271,8 @@ hr {
     padding-bottom: 50px;
     border-bottom: 1px solid black;
 }
+.mrkt-columns h4 {
+
+}
+
+/*Learn and Grow Section*/
