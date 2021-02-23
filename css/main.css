@@ -183,7 +183,7 @@ font-size: bold;
     font-size: 30px;
 }
 
-h4 {
+.claim h4 {
     margin-top: 30px;
     text-transform: uppercase;
 }
@@ -214,7 +214,7 @@ hr {
     margin: 50px;
 }
 
-.float-left a {
+.float-left .w-30 a {
     margin-left: 50px;
 }
 
@@ -271,9 +271,7 @@ hr {
     padding-bottom: 50px;
     border-bottom: 1px solid black;
 }
-.mrkt-columns h4 {
 
-}
 
 /*Learn and Grow Section*/
 .grow {
@@ -322,4 +320,93 @@ hr {
 
 .pls {
     font-size: 25px;
+}
+
+
+/*numbers and logo section*/
+.number {
+    height: 600px;
+}
+.start-tool {
+    height: 600px;
+    width: 40%;
+}
+
+.box {
+    height: 25%;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.logos {
+    height: 40%;
+    width: 60%;
+}
+
+.nbr {
+    font-size: 36px;
+}
+
+.number .start-tool p {
+    padding-top: 30px;
+    line-height: 26px;
+}
+
+.nbr-two {
+    font-weight: bolder;
+}
+.start h4 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+.start a {
+    position: relative;
+    top:60px;
+}
+.tools {
+    position:relative;
+    top: 130px;
+    font-size: 12px;
+}
+.logos img {
+    margin-right: 40px;
+    width: 100px;
+}
+.first-line {
+    padding-top: 60px;
+}
+.first-line img:first-child,
+.second-line img:first-child {
+    margin-left: 20px;
+}
+.first-line img:nth-child(4),
+.first-line img:nth-child(3) {
+    width: 80px;
+    position: relative;
+    top:10px;
+}
+.second-line {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.second-line img:nth-child(2),
+.second-line img:nth-child(4) {
+    width: 90px;
+    position:relative;
+    bottom:16px;
+    bottom:14px;
+}
+
+.second-line img:nth-child(3) {
+    width: 90px;
+    position: relative;
+    bottom:8px;
+}
+
+.sticker img {
+    width:310px;
+    position: relative;
+    left: 50%;
+    top: 50px;
 }
