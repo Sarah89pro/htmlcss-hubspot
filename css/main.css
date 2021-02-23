@@ -49,6 +49,10 @@ p {
     text-align: right;
 }
 
+.box-shadow {
+    box-shadow: 10px 10px 8px #aeb4c0;
+}
+
 .w-50 {
     width: 50%; /*per dividere il contenitore in 50 e 50*/
 }
@@ -440,7 +444,7 @@ footer a:hover {
 .other {
     color: #33475b;
 }
-.btn-white{
+.btn-white {
     position: relative;
     top:20px;
     background-color: #cbd6e2;
@@ -453,10 +457,9 @@ footer a:hover {
 }
 
 .langs {
-    position:absolute;
-    left:50%;
-    bottom:5px;
-    transform: translate(-50%,-50%); /*left and up*/
+    position: relative;
+    left: 30%;
+    transform: translate(3%,37%);
 }
 .langs li,
 .legal li {
