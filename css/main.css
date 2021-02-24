@@ -216,12 +216,11 @@ hr {
     margin: 50px;
 }
 
-/*DA FIXARE.relative .btn .btn-orange .btn-big {
-    /*margin-right: 20px;
+.relative {
     position: relative;
     bottom: 5px;
     right: 50%;
-}*/
+}
 
 .float-left h3 {
     padding-top: 50px;
@@ -261,13 +260,14 @@ hr {
 .column-menu li {
     text-align: left;
     margin-left: 10%;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .mrkt-text {
     width: 80%;
     margin: 30px auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     border-bottom: 1px solid black;
 }
 
@@ -366,7 +366,7 @@ hr {
 .tools {
     position:relative;
     top: 130px;
-    font-size: 12px;
+    font-size: 16px;
 }
 .logos img {
     margin-right: 40px;
@@ -441,7 +441,7 @@ footer a:hover {
 }
 .btn-white {
     position: relative;
-    top:20px;
+    top: 20px;
     background-color: #cbd6e2;
     border: 1px solid #cbd6e2;
 }
@@ -476,3 +476,5 @@ footer a:hover {
     margin-top: 30px;
     text-align: right;
 }
+
+
