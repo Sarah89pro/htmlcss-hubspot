@@ -99,6 +99,36 @@ a {
     vertical-align: middle;
 }
 
+/* DROPDOWN menu */
+.dropmenu {
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color:#F5F8FA; 
+    z-index: 1;
+}
+.dropdown-menu li {
+    width: 80%;
+    line-height: 1;
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10% 10%;
+    text-decoration: none;
+    color:  #33475B; 
+}
+
+.dropdown-menu a:hover{
+    color: #01A4BD;
+    text-decoration: underline; 
+}
+
+.dropmenu:hover .dropdown-menu  {
+    display: block;
+}
+
 /*BUTTONS and Icons*/
 .btn {
     display: inline-block;
