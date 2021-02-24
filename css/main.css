@@ -503,13 +503,13 @@ footer a:hover {
 
 }
 
-#subject {
+.background {
+    background-color: white;
     width: 200px;
-    height: 300px;
-
+    height: 100px;
 }
 
-input {
+.submit {
     background-color: #FF7A59;
     color: white;
     font-size: bold;
